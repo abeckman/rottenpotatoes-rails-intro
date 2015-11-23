@@ -1,0 +1,86 @@
+    1  ls
+    2  git clone git@github.com/abeckman/hw-sinatra-saas-hangperson
+    3  git clone git@github.com:abeckman/hw-sinatra-saas-hangperson
+    4  ls
+    5  cd hw-sinatra-saas-hangperson/
+    6  ls
+    7  more Gemfile
+    8  more README.md 
+    9  less README.md 
+   10  grep create README.md 
+   11  less README.md 
+   12  history
+   13  exit
+   14  cd ~ && wget -O - "https://www.dropbox.com/download?plat=lnx.x86_64" | tar xzf -
+   15  ls
+   16  ~/.dropbox-dist/dropboxd
+   17  ln -s /home/ubuntu/Dropbox/ ~/workspace/
+   18  ls
+   19  ls -l Dropbox/
+   20  cd ~/ && wget https://linux.dropbox.com/packages/dropbox.py
+   21  ls
+   22  chmod +x dropbox.py
+   23  cd /bin && sudo ln -s ~/dropbox.py
+   24  dropbox start
+   25  history
+   26  ls
+   27  cd ..
+   28  ls
+   29  cd 
+   30  ls
+   31  cd workspace/
+   32  cd rott
+   33  cd rottenpotatoes-rails-intro/
+   34  ls
+   35  cd ..
+   36  cd
+   37  ls
+   38  history > history_13Nov15
+   39  cd workspace/
+   40  ls
+   41  cd rottenpotatoes-rails-intro/
+   42  ls
+   43  git status
+   44  bundle 
+   45  bundle install
+   46  vim app/assets/stylesheets/default.css 
+   47  git status
+   48  vim app/views/movies/index.html.haml 
+   49  history
+   50  vim app/views/movies/index.html.haml 
+   51  git add -a
+   52  git add -A
+   53  git commit -am "first changes to index view"
+   54  git push master origin
+   55  grep git ../history_7Oct15 
+   56  grep git ../hw-sinatra-saas-hangperson/history_*
+   57  git push heroku master
+   58  vi app/controllers/movies_controller.rb 
+   59  git add -A
+   60  git commit -am "fixed hilite"
+   61  git push heroku master
+   62  vi app/views/movies/index.html.haml 
+   63  vi app/models/movie.rb 
+   64  vi app/views/movies/index.html.haml 
+   65  vi app/controllers/movies_controller.rb 
+   66  vi app/views/movies/index.html.haml 
+   67  git add -A
+   68  git commit -am "part way through adding ratings"
+   69  git push heroku master
+   70  diff app/views/movies/index.html.haml ../hw-bdd-cucumber/rottenpotatoes/app/views/movies/index.html.haml 
+   71  diff app/controllers/movies_controller.rb ../hw-bdd-cucumber/rottenpotatoes/app/controllers/movies_controller.rb 
+   72  vi app/controllers/movies_controller.rb 
+   73  git add -A
+   74  git commit -am "most of the way"
+   75  git push heroku master
+   76  diff app/views/movies/index.html.haml ../hw-bdd-cucumber/rottenpotatoes/app/views/movies/index.html.haml 
+   77  vi app/views/movies/index.html.haml 
+   78  diff app/controllers/movies_controller.rb ../hw-bdd-cucumber/rottenpotatoes/app/controllers/movies_controller.rb 
+   79  vim app/controllers/movies_controller.rb 
+   80  git add -A
+   81  git commit -am "fix typo"
+   82  git push heroku master
+   83  vi app/models/movie.rb 
+   84  vim app/controllers/movies_controller.rb 
+   85  history
+   86  history > history_16Nov15
